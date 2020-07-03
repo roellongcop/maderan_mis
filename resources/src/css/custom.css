@@ -1,0 +1,185 @@
+.font-larger {
+	font-size: larger;
+}
+
+.certificate-title {
+	font-family: auto;
+    font-weight: bold;
+    margin-top: 7%;
+}
+
+.justify {
+	text-align: justify;
+}
+
+.ti-50 {
+	text-indent: 50px;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.certified-by {
+    margin-top: 25%;
+}
+
+.noted-by {
+    margin-top: -10%;
+}
+
+.office-title {
+	color: #FC8213 !important;
+}
+
+.clearance-title {
+    margin-top: 5%;
+	color: #FC8213 !important;
+}
+
+.upper {
+	text-transform: uppercase;
+}
+
+.siblings-form {
+	
+margin-top: -25%;
+}
+
+#alert-danger {
+	display: none;
+}
+
+i {
+	cursor: pointer;
+}
+
+.header-clearance {
+	font-weight: bold; 
+}
+
+.larger {
+    font-size: -webkit-xxx-large;
+}
+
+.orange {
+	color: #FC8213 !important;
+}
+
+.blue {
+	color: #0a81b9 !important;
+}
+
+.italic {
+	font-style: italic;
+
+}
+
+.maderan-logo {
+	position: absolute;
+    width: 135px;
+    left: 25%;
+    top: 25%;
+}
+
+.maderan-logo-bc {
+	position: absolute;
+    width: 135px;
+    left: 25%;
+    top: 15%;
+}
+
+.maderan-logo-br {
+	position: absolute;
+    width: 80px;
+    left: 18%;
+    top: 28%;
+}
+
+.active-page {
+	background: #FC8213;
+}
+
+.certificate-content {
+	margin-top: 4%;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    height: 35px;
+    padding-top: 2.5px;
+    border-radius: unset;
+}
+
+
+.input-group .select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    height: 35px;
+    padding-top: 2.5px;
+    border-radius: unset;
+}
+
+.input-group-btn .btn {
+    border-radius: unset;
+}
+
+
+.summary-table {
+    font-size: smaller;
+}
+
+span.fa-angle-right {
+    margin-top: -10px;
+}
+
+.login-main {
+    width: 30%;
+    }
+
+.filter-box {
+    padding: 10px;
+    border: 1.5px dashed #ccc;
+}
+
+.resident-list, .spouse-list {
+    display: none;
+}
+.sidebar-menu {
+    /*position: fixed;*/
+}
+
+#complainant-form, #respondent-form {
+    display: none;
+}
+
+table th, table > th > a {
+    text-transform: uppercase;
+}
+
+.table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > th, .table > caption + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > td, .table > thead:first-child > tr:first-child > td {
+    text-transform: uppercase;
+    color: #333
+}
+
+textarea, select, input, ul.select2-results__options {
+    text-transform: uppercase !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    text-transform: uppercase !important;
+}
+
+
+table th, table td{
+    text-transform: uppercase;
+}
