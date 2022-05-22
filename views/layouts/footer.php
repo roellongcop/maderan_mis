@@ -28,9 +28,25 @@ $route = Yii::$app->controller->id . '/' . Yii::$app->controller->action->id;
 	    <div class="menu">
 	      	<ul id="menu" >
 	      		<?php foreach (Yii::$app->params['menus'] as $menu) : ?>
-			        	
+	        		
+	        		<?php
+	        			$class = '';
 
-		      		<li class="<?= isset($menu['sub'])? (in_array([$route], array_values(ArrayHelper::map($menu['sub'], 'label', 'route'))))? 'active-page': '': ([$route] == $menu['route']) ? 'active-page': '' ?>">
+	        			if (isset($menu['sub'])) {
+	        				$arr = ArrayHelper::map($menu['sub'], 'label', 'route');
+
+	        				if (in_array([$route], array_values($arr))) {
+	        					$class = 'active';
+	        				}
+	        			}
+	        			else {
+	        				if ([$route] == $menu['route']) {
+	        					$class = 'active-oage';
+	        				}
+	        			}
+	        		?>
+
+		      		<li class="<?= $class ?>">
 
 			        	<?php if(isset($menu['sub'])): ?>
 			        		<?php if(Yii::$app->template->showMenu($menu, true)): ?>
